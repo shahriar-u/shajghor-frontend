@@ -1,0 +1,5 @@
+[
+  {"id": 1, "service_name": "Royal Wedding Decor", "cost": 50000, "unit": "per event", "image": "https://i.ibb.co/Vmq3z9v/wedding.jpg", "category": "Wedding"},
+  {"id": 2, "service_name": "Smart Home Interior", "cost": 1200, "unit": "per sqft", "image": "https://i.ibb.co/kXP0S8V/home.jpg", "category": "Home"},
+  {"id": 3, "service_name": "Corporate Seminar Setup", "cost": 15000, "unit": "per day", "image": "https://i.ibb.co/L6MvD8q/office.jpg", "category": "Office"}
+]
