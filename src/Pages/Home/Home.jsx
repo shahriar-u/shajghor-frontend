@@ -153,8 +153,8 @@ const Home = () => {
               </button>
               <Link to={'/services'}>
                 <button className="btn bg-[#FBBF24] hover:bg-[#E11D48] hover:text-white text-black border-none px-10 h-14 rounded-full text-lg font-bold">
-                Order Now
-              </button>
+                  Order Now
+                </button>
               </Link>
             </div>
           </motion.div>

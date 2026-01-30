@@ -5,7 +5,7 @@ import App from "../App";
 import Home from "../Pages/Home/Home";
 import NotFound from "../Pages/NotFound/NotFound";
 import Login from "../Pages/Login/Login";
-import Signup from "../Pages/Signup/SignUp";
+import Signup from "../Pages/Signup/Signup";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import DashboardInfo from "../Pages/Dashboard/DashboardInfo/DashboardInfo";

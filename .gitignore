@@ -9,10 +9,6 @@ lerna-debug.log*
 .env
 
 
-hooks
-
-
-
 
 
 
@@ -31,3 +27,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
