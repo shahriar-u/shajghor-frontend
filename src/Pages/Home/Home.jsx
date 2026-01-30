@@ -14,7 +14,8 @@ const Home = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    // fetch("http://localhost:5000/services")
+    fetch(`${import.meta.env.VITE_API_URL}/services`)
       .then((res) => res.json())
       .then((data) => {
         setServices(data.slice(0, 6));
@@ -22,7 +23,7 @@ const Home = () => {
       })
       .catch((err) => console.error("Error fetching services:", err));
 
-    fetch("http://localhost:5000/decorators")
+    fetch(`${import.meta.env.VITE_API_URL}/decorators`)
       .then((res) => res.json())
       .then((data) => {
         setDecorators(data.slice(0, 4));

@@ -104,7 +104,7 @@ const Signup = () => {
 
   
   const checkUserStatus = async (email) => {
-    const res = await axios.get(`http://localhost:5000/user/status/${email}`);
+    const res = await axios.get(`${import.meta.env.VITE_API_URL}/user/status/${email}`);
     if (res.data?.status === "disabled") {
       await logOut(); 
       navigate("/account-information");

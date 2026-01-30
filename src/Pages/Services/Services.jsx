@@ -19,7 +19,7 @@ const Services = () => {
     setIsLoading(true);
     
     axios
-      .get("http://localhost:5000/services")
+      .get(`${import.meta.env.VITE_API_URL}/services`)
       .then((res) => {
         setServices(res.data);
         setIsLoading(false);
