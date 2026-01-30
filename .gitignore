@@ -8,8 +8,16 @@ pnpm-debug.log*
 lerna-debug.log*
 .env
 
-Pages
+
 hooks
+Home
+Login
+NotFound
+ServiceDetails
+Services
+Signup
+
+
 
 
 
